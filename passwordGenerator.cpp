@@ -9,23 +9,7 @@
 #include<climits>
 #define MOD 1000000007
 using namespace std;
-//template< class T> bool binarySearch(vector<T> arr,T target){
-//  int start = 0,end = (int)arr.size();
-//  int mid = 0;
-//  while(start <= end){
-//    mid = start + (end - start) / 2;
-//    if(arr[mid] == target){
-//      return true;
-//    }
-//    else if(arr[mid] > target){
-//      end = mid - 1;
-//    }
-//    else if(arr[mid] < target){
-//      start = mid + 1;
-//    }
-//  }
-//  return false;
-//}
+
 vector<char> merge(vector<char> a,vector<char> b,vector<char> c,vector<char> d){
   int N = (int)a.size() + (int)b.size() + (int)c.size();
   vector<char> ans(N);
